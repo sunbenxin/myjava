@@ -11,7 +11,7 @@ import java.math.BigDecimal;
 public class test implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
-        log.info("commandline runner test");
+        log.info("Commandline runner test");
     }
 
     private void p(String s) {

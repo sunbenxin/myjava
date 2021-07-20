@@ -14,7 +14,7 @@ import java.util.List;
 public class schedule {
     @Scheduled(fixedRate = 10000)
     public void run() {
-        log.info("test schedule");
+        log.info("Test schedule");
     }
 
     private void test() {
